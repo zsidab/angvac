@@ -1,4 +1,4 @@
-<h2>Developers</h2>
+<h2>Patients</h2>
 <ul class="patients">
     <li *ngFor="let patient of patients" [class.selected]="patient === selectedPatient" (click)="onSelect(patient)">
         <span class="badge">{{patient.id}}</span> {{patient.name}}

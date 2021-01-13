@@ -18,7 +18,7 @@ export class PatientsComponent implements OnInit {
   }
 
 
-  selectedPatient : Patient | undefined;
+  selectedPatient : Patient;
 
 
   ngOnInit(): void {
